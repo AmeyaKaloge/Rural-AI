@@ -15,7 +15,7 @@ const ToolsCarousel = () => {
     },
     {
       name: "India AI Mission",
-      icon: "/tools/india_ai.jpg"
+      icon: "/Tools/india_ai.jpg"
     },
     {
       name: "Make in India",

@@ -56,7 +56,7 @@ transition.
           </div>
           <div className="bg-white shadow-lg rounded-lg overflow-hidden flex justify-center items-center">
             <img 
-              src="/Gifs/Gif1.jpg" 
+              src="/Gifs/GIf1.jpg" 
               alt="Custom Automation Solutions" 
               className="w-auto h-auto max-h-48 max-w-full transform hover:scale-110 transition duration-300"
             />

@@ -20,7 +20,7 @@ const features = [
   {
     title: "Implementation & Monitoring",
       description: "The project tasks are implemented and continuously monitored to ensure they align with the timeline and goals. The company is regularly updated about the progress",
-    image: "/whyus/Plc_based.png",
+    image: "/Whyus/Plc_based.png",
     alt: "24/7 support illustration"
   }
 ]

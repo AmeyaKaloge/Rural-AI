@@ -7,35 +7,38 @@ const ReadinessForm = () => {
     const [location, setLocation] = useState('');
     const [industry, setIndustry] = useState('');
     const navigate = useNavigate();
+
     const handleSubmit = (event) => {
         event.preventDefault();
-        navigate('/readiness-score',{
-        state: {
-            companyName: companyName, // Replace with actual state variables
-            employees: employees,
-            locationName: location,
-            industryType: industry,
-          },
-    })
-      };
+        navigate('/readiness-score', {
+            state: {
+                companyName: companyName,
+                employees: employees,
+                locationName: location,
+                industryType: industry,
+            },
+        });
+    };
+
     return (
-        <div id='readinessform' className="flex min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black">
+        <div id="readinessform" className="flex flex-col md:flex-row min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black">
             {/* Left image */}
-            <div className="w-1/2 flex justify-start mt-14 mb-14 ml-16">
-        <img 
-          src="/form-image.png" 
-          alt="description" 
-          className="w-full h-auto rounded-md"
-        />
-      </div>
+            <div className="md:w-1/2 w-full flex justify-center md:justify-start mt-6 mb-6 md:mt-14 md:mb-14 md:ml-16">
+                <img 
+                    src="/form-image.png" 
+                    alt="description" 
+                    className="w-3/4 md:w-full h-auto rounded-md"
+                />
+            </div>
 
             {/* Right form */}
-            <div className="w-1/2 flex justify-center items-center mt-14 mb-14 ">
-            <form onSubmit={handleSubmit}
-                    className="bg-gray-100 p-8 rounded-lg shadow-lg w-3/4 max-w-lg space-y-3"
+            <div className="md:w-1/2 w-full flex justify-center items-center mt-6 mb-6 md:mt-14 md:mb-14 px-4">
+                <form 
+                    onSubmit={handleSubmit}
+                    className="bg-gray-100 p-6 md:p-8 rounded-lg shadow-lg w-full md:w-3/4 max-w-lg space-y-3"
                 >
-  {/* Your form content */}
-                    <h2 className="text-2xl font-bold text-center text-gray-800">
+                    {/* Form content */}
+                    <h2 className="text-xl md:text-2xl font-bold text-center text-gray-800">
                         Register Here
                     </h2>
                     <div>

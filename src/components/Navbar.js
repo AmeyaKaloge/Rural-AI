@@ -43,7 +43,7 @@ const Navbar = () => {
               alt="Tech Star Logo" 
               className="h-10 w-auto mr-3"
             />
-            <span className="font-bold text-xl bg-gradient-to-r from-cyan-500 to-cyan-700 text-transparent bg-clip-text">VisionFlow 4.0</span>
+            <span className="font-bold text-xl bg-gradient-to-r from-cyan-500 to-cyan-700 text-transparent bg-clip-text">IAPSRD</span>
 
           </div>
 

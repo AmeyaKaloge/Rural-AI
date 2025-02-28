@@ -33,7 +33,7 @@ const Home = () => {
                         <FlipWords words={words} /><br />
                     </h1>
                     <p className="text-gray-400 text-base lg:text-lg mb-8 mt-6 max-w-[600px] text-justify">
-                        Welcome to the future of business transformation! Our AI-Driven System helps Indian companies seamlessly adopt Industry 4.0 with tailored timelines, data-driven insights, and structured guidance. Unlock new opportunities, drive innovation, and achieve sustainable growth with us.
+                    Driven by the vision of empowering rural communities, our integrated AI platform combines advanced technology with practical solutions for sustainable development. From intelligent agricultural insights, weather forecasts, and crop recommendations to community-focused tools for education, healthcare, and resource management, we aim to bridge the gap between rural needs and technological advancements. With user-friendly features and real-time data-driven support, the platform fosters growth, self-reliance, and prosperity, ensuring that rural landscapes thrive alongside urban progress.
                     </p>
                     <button className="bg-white text-black font-bold text-l px-8 py-3 rounded-full w-fit hover:bg-gray-100 transition-colors">
                         Get Started

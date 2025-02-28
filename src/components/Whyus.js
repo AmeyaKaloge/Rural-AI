@@ -7,19 +7,19 @@ import { motion,  useInView } from "framer-motion"
 const features = [
   {
     title: "Readiness Assessment",
-      description: "The company’s readiness for Industry 4.0 adoption is evaluated based on key factors like technology infrastructure, digital maturity, and workforce readiness of the company.",
+      description: "Before development, a comprehensive readiness assessment was conducted, focusing on community needs, technology infrastructure, data availability, and stakeholder engagement to ensure the platform's effectiveness and sustainability.",
     image: "/Whyus/Inspection.png",
     alt: "Security shield illustration"
   },
   {
     title: "Timeline Generation",
-      description: "A customized timeline is developed, outlining the steps that are required for achieving Industry 4.0 transformation. Improved efficiency is forecasted based on the planned implementations.",
+      description: "Track key milestones and project progress with our dynamic timeline generator, offering a clear and organized view of development phases and achievements.",
       image: "/Whyus/Design.png",
     alt: "AI automation illustration"
   },
   {
     title: "Implementation & Monitoring",
-      description: "The project tasks are implemented and continuously monitored to ensure they align with the timeline and goals. The company is regularly updated about the progress",
+      description: "Streamline project execution with our comprehensive implementation and monitoring tools. From tracking progress in real-time to evaluating performance metrics, our platform ensures efficient management and timely adjustments.",
     image: "/Whyus/Plc_based.png",
     alt: "24/7 support illustration"
   }
